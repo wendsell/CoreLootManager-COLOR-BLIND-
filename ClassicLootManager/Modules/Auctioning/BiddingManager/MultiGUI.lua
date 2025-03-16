@@ -15,11 +15,11 @@ local SharedMedia = LibStub("LibSharedMedia-3.0")
 local DISPLAY_MODE_VALUES  = 1
 local DISPLAY_MODE_BUTTONS = 2
 
-local colorGreen = {r = 0.27, g = 0.93, b = 0.27, a = 1.0}
+local colorGreen = {r = 1.0, g = 0.5, b = 0.0, a = 1.0}
 local colorGold = {r = 0.93, g = 0.70, b = 0.13, a = 1.0}
 local colorRed = {r = 0.93, g = 0.27, b = 0.2, a = 1.0}
-local colorBlue = {r = 0.2, g = 0.2, b = 0.93, a = 1.0}
-local colorTurquoise = {r = 0.2, g = 0.93, b = 0.93, a = 1.0}
+local colorBlue = {r = 0.0, g = 0.5, b = 1.0, a = 1.0}
+local colorTurquoise = {r = 0.0, g = 0.5, b = 1.0, a = 1.0}
 local colorGrey = {r = 0.62, g = 0.62, b = 0.62, a = 1}
 
 local _, _, _, isElvUI = UTILS.GetAddOnInfo("ElvUI")
